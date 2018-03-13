@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <% include head.ejs %>
+    <title>GDMS ASMT</title>
+</head>
+
+<body class="text-center bg1" style="display:none">
+  <link rel='stylesheet' href='/stylesheets/cover.css' />
+  <!-- <link rel='stylesheet' href='/stylesheets/main.css' /> -->
+
+  <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <header class="masthead mb-auto">
+
+    </header>
+
+    <main role="main" class="inner cover" style="padding-top:15px">
+      <h1 class="cover-heading strokeme">GDMS Aerial Mapping</h1>
+      <h2 class="lead strokeme">Stevens Institute of Technology</h2>
+      <button style='margin-top:.5rem;margin-right:.5rem' onclick="changePage('project')" class="darkColorText btn btn-lg btn-secondary">check out the project</button>
+      <button style='margin-top:.5rem;margin-left:.5rem' onclick="changePage('team')" class="darkColorText btn btn-lg btn-secondary">see who is on the team</button>
+      <button style='margin-top:1rem' onclick="changePage('sponsor')" class="darkColorText btn btn-lg btn-secondary">progress so far</button>
+
+    </main>
+
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+        <p class = 'reg' style='color:white'>website for senior design, by
+          <a class='accentColor' href="https://github.com/aaruljothi">arun aruljothi</a> and understudy
+          <a class='accentColor' href="https://github.com/JohnGrotke">john grotke</a>.</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+  <!-- TODO: FOOTER  -->
+</body>
+<script src='/javascript/cover.js'></script>
+<% include tail.ejs %>
+
+</html>

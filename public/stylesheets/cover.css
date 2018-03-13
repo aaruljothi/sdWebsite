@@ -1,0 +1,153 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #444444;
+}
+
+.accentColor{
+  color: #ffbd00 !important;
+}
+body.bg2 .reg{
+  color: #284189 !important;
+}
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:focus {
+  color:  #ffbd00 !important;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #284189 !important;
+
+  -webkit-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.75);
+  /* border: .05rem solid #fff; */
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  color:  #284189 !important;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color:  #ffbd00 !important;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  transition: background 1s ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #333;
+}
+
+body.bg1{
+  background-image: Url('../images/cover/teampic.jpg');
+}
+
+body.bg2{
+  background-image: Url('../images/cover/cover2.jpg');
+}
+
+body.bg3{
+  background-image: Url('../images/cover/cover1.jpg');
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: #444444;
+  text-shadow: .05rem .05rem 1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+h2.strokeme
+{
+    color: #ffbd00;
+    font-size: 32px !important;
+    font-weight: bold;
+}
+body.bg2 h2.strokeme {
+    color: #284189;
+    font-size: 32px !important;
+    font-weight: bold;
+
+}
+body.bg2 .strokeme
+{
+    color: #284189;
+    font-size: 60px !important;
+}
+.strokeme
+{
+    color: #ffbd00;
+    font-size: 60px !important;
+}
+.cover-container {
+  max-width: 42em;
+}
+
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+/* .carousel { z-index: -99; }
+.carousel .item {
+    position: fixed;
+    width: 100%; height: 100%;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+
+}
+.carousel .one {
+    background: url('/images/cover/cover1.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+.carousel .two {
+    background: url('/images/cover/cover2.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+.carousel .active.left {
+    left:0;
+    opacity:0;
+    z-index:2;
+} */
