@@ -17,3 +17,5 @@ Static senior design website.
 ### Deployment
 
 * Deployed to [Firebase](https://firebase.google.com/) @ **[senior.arunaruljothi.com](https://senior.arunaruljothi.com)**.
+
+Deploy with `firebase deploy`. 
